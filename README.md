@@ -23,6 +23,7 @@ shouldn't have a problem on other distributions like ubuntu.
 * try using a python version 3.6 or higher
 * if there is an error when compiling, check that everything in the install.sh file is installed
 * if you install any library after trying to compile it is best to run *buildozer android dlean* in case of compiling for android
+* if you get any ssl error install with pip openssl and pyopenssl
 
 #### step
 
@@ -31,7 +32,7 @@ shouldn't have a problem on other distributions like ubuntu.
 * (from your project) buildozer init
 * buildozer android debug deploy run (run only if you have connected a device)
 
-#### info
+### info
 
 * debug android app
  * android.logcat_filters = *:S python:D (buildozer.spec)
