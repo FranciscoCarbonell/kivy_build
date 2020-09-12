@@ -1,4 +1,4 @@
-# Build kivy app
+# Build kivy app to android
 
 ### Test:
 * xubuntu 20.04
